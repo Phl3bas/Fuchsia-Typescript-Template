@@ -3,7 +3,7 @@ import { Controller, Route, Request } from '@fuchsiajs/common';
 
 export const AppController = () => {
   const HelloWorld = async (): Promise<string> => {
-    return '<h1>Hello World</h1>';
+    return '<h1>Hello FuchsiaJS</h1>';
   };
 
   return (
