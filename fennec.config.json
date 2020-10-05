@@ -1,0 +1,10 @@
+{
+  "port": 1234,
+  "static": "/public",
+  "views": "/viewssasjhd",
+  "view engine": "ejs",
+  "json": true,
+  "urlEncoded": {
+    "extended": true
+  }
+}
