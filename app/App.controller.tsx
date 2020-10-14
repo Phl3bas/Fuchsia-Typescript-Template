@@ -1,14 +1,14 @@
-import { h } from '@fuchsiajs/core';
+import { JSX } from '@fuchsiajs/core';
 import { Controller, Route, Request } from '@fuchsiajs/common';
 
 export const AppController = () => {
-  const HelloWorld = async (): Promise<string> => {
-    return '<h1>Hello FuchsiaJS</h1>';
+  const HelloWorld = async (): Promise<any> => {
+    return { title: "FuchsiaJS" };
   };
 
   return (
     <Controller path='/'>
-      <Route method='get' path='/' callback={HelloWorld} />
+      <Route render="index" method='get' path='/' callback={HelloWorld} />
     </Controller>
   );
 };

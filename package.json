@@ -12,9 +12,10 @@
     "FennecJS"
   ],
   "dependencies": {
-    "@fuchsiajs/common": "^1.0.0",
-    "@fuchsiajs/core": "^1.0.0",
-    "@fuchsiajs/orm": "^1.0.0",
+    "@fuchsiajs/common": "^1.0.2",
+    "@fuchsiajs/core": "^1.0.1",
+    "@fuchsiajs/orm": "^1.0.1",
+    "@fuchsiajs/template": "^1.0.1",
     "dotenv": "^8.2.0"
   },
   "author": "",
